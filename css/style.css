@@ -363,12 +363,28 @@ img {
     .l-header__user-info-icon-img {
       width: 40px;
       height: 40px; }
+  .l-header__login-nav {
+    display: flex;
+    margin-left: auto; }
+  .l-header__login-nav-item:not(:first-child) {
+    margin-left: 20px; }
+
+.l-form {
+  width: 640px;
+  margin: 0 auto; }
+  .l-form__title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center; }
+  .l-form__content {
+    margin-top: 40px; }
 
 .l-main {
   width: 1000px;
   background: burlywood;
   height: 1000px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 40px; }
 
 .c-button {
   text-align: center;
@@ -382,6 +398,27 @@ img {
     background: blue; }
   .c-button--secondary {
     background: greenyellow; }
+  .c-button--wide {
+    width: 200px; }
+
+.c-regist-form {
+  background: wheat;
+  width: 640px; }
+  .c-regist-form__table-row {
+    display: flex;
+    justify-content: center;
+    height: 100px; }
+  .c-regist-form__table-label {
+    width: 240px; }
+  .c-regist-form__table-input {
+    width: 400px;
+    border: 1px solid grey;
+    padding: 3px 5px; }
+  .c-regist-form__table-input-msg {
+    display: block;
+    font-size: 14px; }
+  .c-regist-form__table-buttonWrap {
+    text-align: center; }
 
 .p-mypage-userStatus {
   width: 100%;
@@ -417,7 +454,6 @@ img {
 
 .p-mypage-work {
   width: 100%;
-  height: 1000px;
   padding-top: 30px;
   background: paleturquoise; }
   .p-mypage-work__titleWrap {
@@ -433,12 +469,15 @@ img {
     width: 100%;
     height: 140px;
     display: flex; }
+    .p-mypage-work__list-post:not(:first-child) {
+      margin-top: 20px; }
   .p-mypage-work__list-post-imgWrap {
     width: 120px;
     height: 140px; }
   .p-mypage-work__list-post-img {
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    object-fit: contain; }
   .p-mypage-work__list-post-content {
     width: 500px;
     height: 100%;
@@ -482,3 +521,60 @@ img {
     align-items: center;
     flex-flow: column;
     justify-content: space-between; }
+
+.p-mypage-post {
+  width: 100%;
+  margin-top: 30px; }
+  .p-mypage-post__title {
+    text-align: center; }
+  .p-mypage-post__list {
+    margin-top: 40px; }
+  .p-mypage-post__list-post {
+    width: 100%;
+    height: 140px;
+    display: flex; }
+    .p-mypage-post__list-post:not(:first-child) {
+      margin-top: 20px; }
+  .p-mypage-post__list-post-imgWrap {
+    width: 120px;
+    height: 140px; }
+  .p-mypage-post__list-post-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; }
+  .p-mypage-post__list-post-content {
+    width: 500px;
+    height: 100%;
+    background: palegoldenrod;
+    padding: 15px 10px 15px 20px; }
+  .p-mypage-post__list-post-content-label {
+    font-size: 12px;
+    background: gray;
+    color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 3px; }
+  .p-mypage-post__list-post-content-title {
+    background: skyblue;
+    margin-top: 20px;
+    height: 60px; }
+  .p-mypage-post__list-post-status {
+    width: 200px;
+    height: 100%;
+    background: silver;
+    padding: 15px 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: column; }
+  .p-mypage-post__list-post-status-content {
+    display: block; }
+  .p-mypage-post__list-post-buttons {
+    padding: 15px 10px;
+    width: 180px;
+    height: 100%;
+    background: #9a8878;
+    display: flex;
+    align-items: center;
+    justify-content: center; }

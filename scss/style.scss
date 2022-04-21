@@ -4,12 +4,13 @@
 
 // layout
 @import './layout/header';
+@import './layout/form';
 @import './layout/main';
 @import './layout/footer';
 
 // component
 @import './component/button';
-
+@import './component/regist-form';
 
 // project
 @import './project/mypage';

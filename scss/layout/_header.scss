@@ -29,4 +29,11 @@
 			height: 40px;
 		}
 	}
+	&__login-nav{
+		display: flex;
+		margin-left: auto;
+	}
+	&__login-nav-item:not(:first-child){
+		margin-left: 20px;
+	}
 }

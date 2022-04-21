@@ -1,0 +1,12 @@
+.l-form{
+	width: 640px;
+	margin: 0 auto;
+	&__title{
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+	}
+	&__content{
+		margin-top: 40px;
+	}
+}
