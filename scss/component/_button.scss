@@ -1,0 +1,15 @@
+.c-button{
+	text-align: center;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	width: 140px;
+	height: 40px;
+	border-radius: 20px;
+	&--primary{
+		background: blue;
+	}
+	&--secondary{
+		background: greenyellow;
+	}
+}
