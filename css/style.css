@@ -697,6 +697,105 @@ img {
     display: flex;
     justify-content: space-between; }
 
+.p-showArticle-basic__card {
+  display: flex; }
+
+.p-showArticle-basic__card-title {
+  font-size: 18px; }
+
+.p-showArticle-basic__card-imgWrap {
+  width: 200px;
+  height: 280px; }
+
+.p-showArticle-basic__card-contents {
+  width: 750px;
+  margin-left: 50px; }
+
+.p-showArticle-basic__card-info {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 20px; }
+
+.p-showArticle-basic__card-info-author-icon {
+  width: 40px;
+  height: 40px;
+  margin-left: auto; }
+
+.p-showArticle-basic__card-info-author-name {
+  margin-left: 5px;
+  margin-right: 10px; }
+
+.p-showArticle-basic__card-content-text {
+  margin-top: 20px;
+  height: 170px;
+  width: 100%;
+  padding: 5px;
+  display: block;
+  border: 1px solid brown; }
+
+.p-postArticle-detail__title {
+  font-size: 20px; }
+
+.p-postArticle-detail__initial {
+  width: 100%;
+  height: 140px;
+  border: 1px solid gainsboro;
+  padding: 15px 60px; }
+
+.p-postArticle-detail__initial-contentWrap {
+  display: inline-block;
+  width: 50%; }
+
+.p-postArticle-detail__initial-imgWrap {
+  text-align: center;
+  display: inline-block;
+  width: 49%; }
+
+.p-postArticle-detail__initial-img {
+  width: 120px;
+  height: 100px; }
+
+.p-postArticle-detail__initial-content-buttonWrap {
+  margin-top: 10px;
+  text-align: center; }
+
+.p-postArticle-child {
+  margin-top: 30px; }
+  .p-postArticle-child__cardsWrap {
+    width: 100%; }
+  .p-postArticle-child__card {
+    width: 100%;
+    height: 120px;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    display: flex;
+    align-items: flex-start; }
+  .p-postArticle-child__card-left {
+    display: inline-block;
+    width: 60px; }
+  .p-postArticle-child__card-left-label {
+    font-size: 20px;
+    font-weight: bold; }
+  .p-postArticle-child__card-center {
+    display: inline-block;
+    width: 860px; }
+  .p-postArticle-child__card-right {
+    display: inline-block;
+    width: 40px; }
+  .p-postArticle-child__card-add {
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    border: 1px solid gray;
+    line-height: 60px;
+    text-align: center; }
+  .p-postArticle-child__buttonsWrap {
+    width: 400px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between; }
+
 .p-profEdit-form {
   width: 100%; }
   .p-profEdit-form__title {
@@ -710,7 +809,7 @@ img {
     width: 120px;
     height: 120px; }
   .p-profEdit-form__form-nameWrap {
-    margin-top: 20px;
+    margin-top: 10px;
     height: 100px; }
   .p-profEdit-form__form-msg {
     display: block;
@@ -727,17 +826,22 @@ img {
     border: 1px solid black;
     border-radius: 10px;
     padding: 5px; }
+  .p-profEdit-form__form-any-tag {
+    font-size: 12px;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 5px; }
   .p-profEdit-form__form-introduceWrap {
-    margin-top: 20px;
+    margin-top: 10px;
     height: 200px; }
   .p-profEdit-form__form-introduce {
     width: 840px;
     margin-top: 5px;
-    height: 140px;
+    height: 120px;
     padding: 5px;
     border: 1px solid gray; }
   .p-profEdit-form__buttonWrap {
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center; }
   .p-profEdit-form__linkWrap {
     margin-top: 40px;

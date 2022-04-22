@@ -15,7 +15,7 @@
 		height: 120px;
 	}
 	&__form-nameWrap{
-		margin-top: 20px;
+		margin-top: 10px;
 		height: 100px;
 	}
 	&__form-msg{
@@ -36,19 +36,25 @@
 		border-radius: 10px;
 		padding: 5px;
 	}
+	&__form-any-tag{
+		font-size: 12px;
+		border: 1px solid red;
+		border-radius: 10px;
+		padding: 5px;
+	}
 	&__form-introduceWrap{
-		margin-top: 20px;
+		margin-top: 10px;
 		height: 200px;
 	}
 	&__form-introduce{
 		width: 840px;
 		margin-top: 5px;
-		height: 140px;
+		height: 120px;
 		padding: 5px;
 		border: 1px solid gray;
 	}
 	&__buttonWrap{
-		margin-top: 40px;
+		margin-top: 20px;
 		text-align: center;
 	}
 	&__linkWrap{
