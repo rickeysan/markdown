@@ -1,0 +1,59 @@
+.p-profEdit-form{
+	width: 100%;
+	&__title{
+		font-size: 20px;
+	}
+	&__formWrap{
+		width: 840px;
+		margin-left: auto;
+	}
+	&__form-imgWrap{
+		height: 160px;
+	}
+	&__form-img{
+		width: 120px;
+		height: 120px;
+	}
+	&__form-nameWrap{
+		margin-top: 20px;
+		height: 100px;
+	}
+	&__form-msg{
+		display: block;
+		font-size: 14px;
+	}
+	&__form-name{
+		width: 420px;
+		height: 40px;
+		display: block;
+		margin-top: 5px;
+		padding: 5px;
+		border: 1px solid gray;
+	}
+	&__form-must-tag{
+		font-size: 12px;
+		border: 1px solid black;
+		border-radius: 10px;
+		padding: 5px;
+	}
+	&__form-introduceWrap{
+		margin-top: 20px;
+		height: 200px;
+	}
+	&__form-introduce{
+		width: 840px;
+		margin-top: 5px;
+		height: 140px;
+		padding: 5px;
+		border: 1px solid gray;
+	}
+	&__buttonWrap{
+		margin-top: 40px;
+		text-align: center;
+	}
+	&__linkWrap{
+		margin-top: 40px;
+		text-align: center;
+		font-size: 14px;
+	}
+}

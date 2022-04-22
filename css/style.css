@@ -696,3 +696,50 @@ img {
     margin: 20px auto;
     display: flex;
     justify-content: space-between; }
+
+.p-profEdit-form {
+  width: 100%; }
+  .p-profEdit-form__title {
+    font-size: 20px; }
+  .p-profEdit-form__formWrap {
+    width: 840px;
+    margin-left: auto; }
+  .p-profEdit-form__form-imgWrap {
+    height: 160px; }
+  .p-profEdit-form__form-img {
+    width: 120px;
+    height: 120px; }
+  .p-profEdit-form__form-nameWrap {
+    margin-top: 20px;
+    height: 100px; }
+  .p-profEdit-form__form-msg {
+    display: block;
+    font-size: 14px; }
+  .p-profEdit-form__form-name {
+    width: 420px;
+    height: 40px;
+    display: block;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid gray; }
+  .p-profEdit-form__form-must-tag {
+    font-size: 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px; }
+  .p-profEdit-form__form-introduceWrap {
+    margin-top: 20px;
+    height: 200px; }
+  .p-profEdit-form__form-introduce {
+    width: 840px;
+    margin-top: 5px;
+    height: 140px;
+    padding: 5px;
+    border: 1px solid gray; }
+  .p-profEdit-form__buttonWrap {
+    margin-top: 40px;
+    text-align: center; }
+  .p-profEdit-form__linkWrap {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px; }
