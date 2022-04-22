@@ -796,6 +796,91 @@ img {
     display: flex;
     justify-content: space-between; }
 
+.p-searchArticle-form {
+  width: 100%; }
+  .p-searchArticle-form__title {
+    font-size: 20px; }
+  .p-searchArticle-form__form {
+    display: flex;
+    justify-content: space-between; }
+  .p-searchArticle-form__form-keywordWrap {
+    width: 560px; }
+  .p-searchArticle-form__form-keyword-input {
+    width: 100%;
+    padding: 5px;
+    height: 40px;
+    border: 1px solid gray; }
+  .p-searchArticle-form__form-categoryWrap {
+    width: 240px; }
+  .p-searchArticle-form__form-category {
+    display: block;
+    padding: 5px;
+    height: 40px;
+    width: 100%;
+    border: 1px solid gray; }
+
+.p-searchArticle-result {
+  margin-top: 10px;
+  width: 100%; }
+  .p-searchArticle-result__list-card {
+    display: flex;
+    width: 320px;
+    height: 200px;
+    border: 1px solid gray; }
+  .p-searchArticle-result__list {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-top: 20px; }
+  .p-searchArticle-result__list-card-img {
+    width: 140px;
+    height: 200px; }
+  .p-searchArticle-result__list-card-contentsWrap {
+    padding: 5px 5px 5px 10px; }
+  .p-searchArticle-result__list-card-title {
+    height: 120px; }
+  .p-searchArticle-result__list-card-icon {
+    width: 32px;
+    height: 32px; }
+  .p-searchArticle-result__list-card-infoWrap {
+    margin-top: 5px;
+    height: 50px; }
+  .p-searchArticle-result__list-card-iconWrap {
+    align-items: center;
+    display: flex; }
+  .p-searchArticle-result__list-card-name {
+    margin-left: 5px;
+    font-size: 12px; }
+  .p-searchArticle-result__list-card-challenger {
+    font-size: 12px; }
+  .p-searchArticle-result .pagination {
+    text-align: center; }
+  .p-searchArticle-result .pagination a, .p-searchArticle-result .pagination span {
+    display: inline-block;
+    margin: 8px 4px;
+    text-decoration: none;
+    border-radius: 6px;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    padding: 18px 0;
+    box-sizing: border-box;
+    color: #899a96;
+    line-height: 1; }
+  .p-searchArticle-result .pagination a:hover {
+    opacity: 0.7; }
+  .p-searchArticle-result .pagination .current {
+    background: transparent;
+    font-weight: bold; }
+  @media screen and (max-width: 767px) {
+    .p-searchArticle-result .pagination a, .p-searchArticle-result .pagination span {
+      margin: 4px 2px;
+      width: 46px;
+      height: 46px;
+      padding: 16px 0; } }
+
 .p-profEdit-form {
   width: 100%; }
   .p-profEdit-form__title {

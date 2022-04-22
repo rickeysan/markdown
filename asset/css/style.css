@@ -831,52 +831,42 @@ img {
   justify-content: space-between;
 }
 
-.p-showArticle-basic__form {
+.p-showArticle-basic__card {
   display: flex;
 }
-.p-showArticle-basic__form-imgWrap {
+.p-showArticle-basic__card-title {
+  font-size: 18px;
+}
+.p-showArticle-basic__card-imgWrap {
   width: 200px;
   height: 280px;
 }
-.p-showArticle-basic__form-img-link {
-  display: block;
-  text-align: center;
-  font-size: 14px;
-}
-.p-showArticle-basic__form-img-msg {
-  display: block;
-  font-size: 14px;
-}
-.p-showArticle-basic__form-text {
+.p-showArticle-basic__card-contents {
   width: 750px;
   margin-left: 50px;
 }
-.p-showArticle-basic__form-titleWrap {
-  height: 80px;
-}
-.p-showArticle-basic__form-title-input {
-  height: 30px;
-  width: 100%;
-  padding: 5px;
-  display: block;
-  border: 1px solid brown;
-}
-.p-showArticle-basic__form-title-msg {
+.p-showArticle-basic__card-info {
+  display: flex;
+  align-items: center;
   font-size: 14px;
-}
-.p-showArticle-basic__form-contentWrap {
-  height: 240px;
   margin-top: 20px;
 }
-.p-showArticle-basic__form-content-textarea {
+.p-showArticle-basic__card-info-author-icon {
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+}
+.p-showArticle-basic__card-info-author-name {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.p-showArticle-basic__card-content-text {
+  margin-top: 20px;
   height: 170px;
   width: 100%;
   padding: 5px;
   display: block;
   border: 1px solid brown;
-}
-.p-showArticle-basic__form-content-msg {
-  font-size: 14px;
 }
 
 .p-postArticle-detail__title {
@@ -949,6 +939,72 @@ img {
   margin: 20px auto;
   display: flex;
   justify-content: space-between;
+}
+
+.p-profEdit-form {
+  width: 100%;
+}
+.p-profEdit-form__title {
+  font-size: 20px;
+}
+.p-profEdit-form__formWrap {
+  width: 840px;
+  margin-left: auto;
+}
+.p-profEdit-form__form-imgWrap {
+  height: 160px;
+}
+.p-profEdit-form__form-img {
+  width: 120px;
+  height: 120px;
+}
+.p-profEdit-form__form-nameWrap {
+  margin-top: 10px;
+  height: 100px;
+}
+.p-profEdit-form__form-msg {
+  display: block;
+  font-size: 14px;
+}
+.p-profEdit-form__form-name {
+  width: 420px;
+  height: 40px;
+  display: block;
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid gray;
+}
+.p-profEdit-form__form-must-tag {
+  font-size: 12px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+.p-profEdit-form__form-any-tag {
+  font-size: 12px;
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 5px;
+}
+.p-profEdit-form__form-introduceWrap {
+  margin-top: 10px;
+  height: 200px;
+}
+.p-profEdit-form__form-introduce {
+  width: 840px;
+  margin-top: 5px;
+  height: 120px;
+  padding: 5px;
+  border: 1px solid gray;
+}
+.p-profEdit-form__buttonWrap {
+  margin-top: 20px;
+  text-align: center;
+}
+.p-profEdit-form__linkWrap {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
 }
 
 .p-profEdit-form {
