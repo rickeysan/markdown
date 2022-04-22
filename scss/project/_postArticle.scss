@@ -1,0 +1,125 @@
+.p-postArticle-basic{
+	&__title{
+		font-size: 20px;
+	}
+	&__form{
+		display: flex;
+	}
+	&__form-imgWrap{
+		width: 200px;
+		height: 280px;
+	}
+	&__form-img-link{
+		display: block;
+		text-align: center;
+		font-size: 14px;
+	}
+	&__form-img-msg{
+		display: block;
+		font-size: 14px;
+	}
+	&__form-text{
+		width: 750px;
+		margin-left: 50px;
+	}
+	&__form-titleWrap{
+		height: 80px;
+	}
+	&__form-title-input{
+		height: 30px;
+		width: 100%;
+		padding: 5px;
+		display: block;
+		border: 1px solid brown;
+	}
+	&__form-title-msg{
+		font-size: 14px;
+	}
+	&__form-contentWrap{
+		height: 240px;
+		margin-top: 20px;
+	}
+	&__form-content-textarea{
+		height: 170px;
+		width: 100%;
+		padding: 5px;
+		display: block;
+		border: 1px solid brown;
+	}
+	&__form-content-msg{
+		font-size: 14px;
+	}
+}
+
+.p-postArticle-detail{
+	&__title{
+		font-size: 20px;
+	}
+	&__initial{
+		width: 100%;
+		height: 140px;
+		border: 1px solid gainsboro;
+		padding: 15px 60px;
+	}
+	&__initial-contentWrap{
+		display: inline-block;
+		width: 50%;
+	}
+	&__initial-imgWrap{
+		text-align: center;
+		display: inline-block;
+		width: 49%;
+	}
+	&__initial-img{
+		width: 120px;
+		height: 100px;
+	}
+	&__initial-content-buttonWrap{
+		margin-top: 10px;
+		text-align: center;
+	}
+}
+.p-postArticle-child{
+	margin-top: 30px;
+	&__cardsWrap{
+		width: 100%;
+	}
+	&__card{
+		width: 100%;
+		height: 120px;
+		border: 1px solid gray;
+		padding: 10px 20px;
+		display: flex;
+		align-items: flex-start;
+	}
+	&__card-left{
+		display: inline-block;
+		width: 60px;
+	}
+	&__card-left-label{
+		font-size: 20px;
+		font-weight: bold;
+	}
+	&__card-center{
+		display: inline-block;
+		width: 860px;
+	}
+	&__card-right{
+		display: inline-block;
+		width: 40px;
+	}
+	&__card-add{
+		margin-top: 20px;
+		width: 100%;
+		height: 60px;
+		border: 1px solid gray;
+		line-height: 60px;
+		text-align: center;
+	}
+	&__buttonsWrap{
+		width: 400px;
+		margin: 20px auto;
+		display: flex;
+		justify-content: space-between;
+	}
+}

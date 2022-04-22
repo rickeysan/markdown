@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>STEP投稿画面</title>
+
+</head>
+
+<body>
+    <header class="l-header">
+        <h1 class="l-header__logo">
+            <a href="" class="l-header__logo-link">
+                <img class="l-header__logo-img" src="asset/img/site_logo.png" alt="">
+            </a>
+        </h1>
+        <ul class="l-header__list-left">
+            <li class="l-header__list-left-item"><a href="" class="l-header__list-left-item-link">STEPを探す</a></li>
+            <li class="l-header__list-left-item"><a href="" class="l-header__list-left-item-link">STEPを書く</a></li>
+        </ul>
+        <ul class="l-header__user-info">
+            <li class="l-header__user-info-item"><a href="" class="l-header__user-info-item-icon">
+                    <img class="l-header__user-info-icon-img" src="asset/img/sample01.png" alt=""></a></li>
+            <li class="l-header__user-info-item">
+                <span class="l-header__user-info-item-name">rickeysan</span>
+                <span>↓</span>
+            </li>
+        </ul>
+    </header>
+    <main class="l-main">
+        <section class="p-postArticle-basic">
+            <h2 class="p-postArticle-basic__title">STEPを投稿する</h2>
+            <div class="p-postArticle-basic__form">
+                <div class="p-postArticle-basic__form-imgWrap">
+                    <img src="asset/img/book.jpeg" alt="" class="p-postArticle-basic__form-imgWrap">
+                    <span class="p-postArticle-basic__form-img-link">カバー画像を変更する
+                    </span>
+                    <span class="p-postArticle-basic__form-img-msg">ファイル形式が不正です
+                    </span>
+                </div>
+                <div class="p-postArticle-basic__form-text">
+                    <div class="p-postArticle-basic__form-titleWrap">
+                        <span class="p-postArticle-basic__form-title-label">タイトル</span>
+                        <input type="text" class="p-postArticle-basic__form-title-input">
+                        <span class="p-postArticle-basic__form-title-msg">入力必須です</span>
+                    </div>
+                    <div class="p-postArticle-basic__form-contentWrap">
+                        <span class="p-postArticle-basic__form-content-label">概要</span>
+                        <textarea type="text" class="p-postArticle-basic__form-content-textarea"></textarea>
+                        <span class="p-postArticle-basic__form-content-msg">入力必須です </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="p-postArticle-detail">
+            <h2 class="p-postArticle-detail__title">子STEPを投稿する</h2>
+            <div class="p-postArticle-detail__initial">
+                <div class="p-postArticle-detail__initial-contentWrap">
+                    <p class="p-postArticle-detail__initial-content-text">
+                        1冊のSTEPは子STEPの集まりで構成されます。ひとつめの子STEPを作成しましょう。
+                    </p>
+                    <div class="p-postArticle-detail__initial-content-buttonWrap">
+                        <button
+                            class="p-postArticle-detail__initial-content-button c-button c-button--secondary">子STEPを追加する</button>
+                    </div>
+                </div>
+                <div class="p-postArticle-detail__initial-imgWrap">
+                    <img src="asset/img/write.png" alt="" class="p-postArticle-detail__initial-img">
+                </div>
+            </div>
+        </section>
+        <section class="p-postArticle-child">
+            <div class="p-postArticle-child__cardsWrap">
+                <div class="p-postArticle-child__card">
+                    <div class="p-postArticle-child__card-left">
+                        <span class="p-postArticle-child__card-left-label">01</span>
+                    </div>
+                    <div class="p-postArticle-child__card-center">
+                        <h3 class="p-postArticle-child__card-center-title">英語の独学法の本を読む</h3>
+                        <span class="p-postArticle-child__card-center-num">136文字</span>
+                    </div>
+                    <div class="p-postArticle-child__card-right">
+                        <span class="p-postArticle-child__card-center-icon">></span>
+                    </div>
+                </div>
+                <div class="p-postArticle-child__card">
+                    <div class="p-postArticle-child__card-left">
+                        <span class="p-postArticle-child__card-left-label">02</span>
+                    </div>
+                    <div class="p-postArticle-child__card-center">
+                        <h3 class="p-postArticle-child__card-center-title">海外ドラマを３周見る</h3>
+                        <span class="p-postArticle-child__card-center-num">543文字</span>
+                    </div>
+                    <div class="p-postArticle-child__card-right">
+                        <span class="p-postArticle-child__card-center-icon">></span>
+                    </div>
+                </div>
+                <div class="p-postArticle-child__card-add">
+                    <button class="p-postArticle-child__card-add-button c-button c-button--secondary">子STEPを追加</button>
+                </div>
+                <div class="p-postArticle-child__buttonsWrap">
+                    <button class="p-postArticle-child__buttonsWrap-button c-button c-button--secondary">下書き保存</button>
+                    <button class="p-postArticle-child__buttonsWrap-button c-button c-button--primary">公開する</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class=" l-footer"></footer>
+</body>
+
+</html>
