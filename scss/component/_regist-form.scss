@@ -8,6 +8,7 @@
 	}
 	&__table-label{
 		width: 240px;
+		padding-top: 5px;
 	}
 	&__table-input{
 		width: 400px;
@@ -20,5 +21,12 @@
 	}
 	&__table-buttonWrap{
 		text-align: center;
+	}
+	&__table-checkboxWrap{
+		margin-top: 20px;
+	}
+	&__table-link{
+		display: block;
+		margin-top: 30px;
 	}
 }

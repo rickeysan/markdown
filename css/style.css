@@ -409,7 +409,8 @@ img {
     justify-content: center;
     height: 100px; }
   .c-regist-form__table-label {
-    width: 240px; }
+    width: 240px;
+    padding-top: 5px; }
   .c-regist-form__table-input {
     width: 400px;
     border: 1px solid grey;
@@ -419,6 +420,11 @@ img {
     font-size: 14px; }
   .c-regist-form__table-buttonWrap {
     text-align: center; }
+  .c-regist-form__table-checkboxWrap {
+    margin-top: 20px; }
+  .c-regist-form__table-link {
+    display: block;
+    margin-top: 30px; }
 
 .p-mypage-userStatus {
   width: 100%;
